@@ -1,0 +1,109 @@
+    <style>
+        /* Add styles for the show/hide password button */
+        .show-password-btn {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            display: none; /* Initially hidden */
+        }
+        
+        /* Adjust image sizes */
+        .phoneImg,
+        
+        #play
+         {
+            width: 120px; /* Adjust as needed */
+            height: 50px; /* Maintain aspect ratio */
+        }
+    #microsoft{
+        width: 110px;
+        height: 40px;
+        /* style.css */
+    }
+.instaLogo{
+    width: 195px;
+    height: 100px;
+}
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.phoneImg {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-div {
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 90%;
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fb-login {
+    display: inline-block;
+    color: #385185;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .form-div {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form-div {
+        padding: 10px;
+    }
+    .input {
+        padding: 8px;
+        margin: 8px 0;
+    }
+    .login-btn {
+        padding: 8px;
+    }
+    .fb-login {
+        font-size: 0.9em;
+    }
+}
+
+    </style>
